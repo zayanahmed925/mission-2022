@@ -1,3 +1,17 @@
+/* header section atart */
+body{
+    margin: 0;
+    padding: 0;
+}
+body h1{
+    color:rgb(73, 70, 70)
+}
+body p{
+   font-size: 20px;
+}
+.color-tomato{
+    color: rgb(231, 205, 59);
+}
 .mission-focused h1{
     font-size: 60px;
 }
@@ -29,16 +43,20 @@ h3{
 }
 
 .button-link{
-    text-decoration: none;
+    border: none;
     color:white;
     background-image: linear-gradient(indianred,tomato);
     padding:13px 23px;
     border-radius: 5%;
     font-weight: 700;
+    margin:15px 0;
 }
+/* mission section start */
 .my-mission h1{
     font-size: 40px;
+    font-weight: 800;
     text-align: center;
+    color: rgba(28, 9, 71, 0.877);
 }
 .mission-separate img{
     width: 40%;
@@ -54,7 +72,6 @@ h3{
     margin-top: 5%;
     padding-left: 15px;
     padding-right: 15px;
-    box-shadow: 10px 10px 30px gray;
     border-radius: 5%;
 }
 #mission{
@@ -66,6 +83,7 @@ h3{
 #goals{
     background-color:rgb(192, 230, 245);
 }
+/* develop section start */
 .develop-position{
     margin-top: 5%;
     background-image: url(images/shapes/shape-1.png);
@@ -87,9 +105,15 @@ h3{
     font-size: 40px;
     line-height: 15px;
 }
+/* comunity section start */
 .global-community{
     margin-left: 10%;
-    margin-top: 7%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 95% 90%;
+    padding: 50px 0 150px 0;
+    
 }
 .global-community h1{
     font-size: 40px;
@@ -103,44 +127,75 @@ h3{
     width: 80%;
     padding-left: 7%;
 }
-.hour{
-    text-align: center;
-}
-.bonus-part{
-    margin-top: 5%;
-}
-.bonus-part h1{
-    text-align: center;
-    font-size: 30px;
-   
-}
-.bonus-part h2{
-  background: -webkit-linear-gradient(blue, purple);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 900;
-}
-.bonus-resize{
-    width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-}
-.bonus-shadow{
+/* person section start */
+.person-area{
+    display: flex;
     background-color: honeydew;
-    box-shadow: 5px 10px 12px gray;
-    border-radius: 5%;
+    padding: 50px 0;
 }
+.person{
+    box-shadow: 0px 0px 25px gray;
+    padding-left: 20px;
+}
+.person img{
+    width:80%;
+}
+
+.half-last{
+    width: 50%;
+    margin-left: 10%
+}
+.contact h2{
+    font-size: 45px;
+    padding-left: 7%;
+    padding-top: 7%;
+    color: rgb(238, 156, 34);
+}
+.contact p{
+    font-size: 25px;
+    padding-top: 2%;
+    color: rgb(14, 2, 46);
+    font-weight: 700;
+}
+.social{
+    margin-top: 30%;
+}
+.social a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 18px 18px;
+    font-weight: 600;
+
+
+}
+.contact span{
+    color:rgb(4, 58, 58)
+}
+#facebook{
+    color:rgb(26, 46, 226)
+}
+#youtube{
+    color:indianred
+}
+#instragram{
+    color:purple
+}
+/* footer section start */
 .footer{
-    background-color: gray;
+    background-color: rgba(6, 1, 20, 0.918);
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .footer h2{
-    font-size: 25px;
+    font-size: 30px;
+    color: white;
 }
 .footer p{
     font-size: 17px;
+    color:rgb(143, 134, 119)
+}
+.footer-color{
+    color: tomato;
 }
